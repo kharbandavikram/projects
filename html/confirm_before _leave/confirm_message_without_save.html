@@ -1,0 +1,86 @@
+<ul>
+<li><a href="https://www.google.com/" class="confirm_before_save">Link One</a></li>	
+<li><a href="https://in.search.yahoo.com/?fr2=inr" class="confirm_before_save">Link Two</a></li>	
+</ul>
+
+<input type="hidden" id="warning_save_field" value="0">
+<table>
+<tr>
+<td>Name</td>	
+<td><input type="text" class="txt_field" onchange="set_confirm_message();"></td>	
+</tr>
+
+<tr>
+<td>City</td>	
+<td><input type="text" class="txt_field" onchange="set_confirm_message();"></td>	
+</tr>
+</table>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+
+
+<script>
+$("document").ready(function(){
+$(".confirm_before_save").each(function(){
+var href = $(this).attr("href");
+$(this).attr("data-val",href);
+$(this).attr("href","javascript:void(0)");
+});
+
+
+// click event on anchor tag
+$(".confirm_before_save").click(function(){
+confirm_message_before_save(this);
+ });
+});
+
+// set confirm message on change text
+function set_confirm_message(){
+$("#warning_save_field").val(1);
+}
+function confirm_message_before_save(elm){
+var get_link = $(elm).attr("data-val");
+var warning_save_field = $("#warning_save_field").val();
+if(warning_save_field==1){
+$.confirm({
+		title: 'Warning!',
+		closeIcon: true,
+		boxWidth: '40%',
+		boxHeight: '400px',
+		useBootstrap: false,
+		icon: 'fa fa-warning',
+		type: 'red',
+		closeIconClass: 'fa fa-close',
+		content: '<p>You are about to leave the page without saving. Click the “Save” button to save.</p>',
+		buttons: {
+			Yes: {
+				btnClass: 'heading_section conform_btn', 
+				action: function () {
+				$("#warning_save_field").val(0);
+				alert('call save function');
+			   }
+			},
+			No:{
+			   
+				btnClass: 'heading_section conform_btn', 
+				action:function(){
+				$("#warning_save_field").val(0);
+				 window.location = get_link;
+			   
+			   
+              }
+			}
+		}
+	});
+  } else {
+  window.location = get_link;
+	
+  }
+  	
+	
+}
+
+
+</script>
