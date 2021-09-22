@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<head>
+		<!--[if IE]><![endif]-->
+		<title>Energy Proffessor</title>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" />
+		
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		</head>
+		<body>
+	<ul class="responsive-table">
+						<li class="table-header">
+      <div class="col col-2 ">Month</div>
+      <div class="col col-2">Jan</div>
+      <div class="col col-2">Feb</div>
+      <div class="col col-2">Mar</div>
+      <div class="col col-2">Apr</div>
+      <div class="col col-2">May</div>
+      <div class="col col-2">Jun</div>
+      <div class="col col-2">Jul</div>
+      <div class="col col-2">Aug</div>
+      <div class="col col-2">Sep</div>
+      <div class="col col-2">Oct</div>
+      <div class="col col-2">Nov</div>
+      <div class="col col-2">Dec</div>
+    </li>
+						
+						
+						
+							<li class="table-row calculator_row">
+<div class="col col-2" data-label="Month">Your Monthly Usage(kWH)</div>
+<div class="col col-2" data-label="Jan:">$713.32</div>
+<div class="col col-2" data-label="Feb:">$616.05</div>
+
+<div class="col col-2" data-label="Mar:">$643.70</div>
+
+
+<div class="col col-2" data-label="Apr:">$591.25</div>
+
+<div class="col col-2" data-label="May:">$674.22</div>
+<div class="col col-2" data-label="Jun:">$674.22</div>
+<div class="col col-2" data-label="Jul:">$674.22</div>
+<div class="col col-2" data-label="Aug:">$674.22</div>
+<div class="col col-2" data-label="Sep:">$674.22</div>
+<div class="col col-2" data-label="Oct:">$674.22</div>
+<div class="col col-2" data-label="Nov:">$674.22</div>
+<div class="col col-2" data-label="Dec:">$674.22</div>
+
+</li>
+</ul>
+	</body>
+</html>	
+					
+	<style>				
+ul.responsive-table {
+    padding: 0;
+    width: 98% !important;
+    margin: 0 auto;
+}
+
+.responsive-table .table-header {
+    background-color: #0c1d63;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #fff;
+    font-weight: 700;
+}
+.responsive-table li {
+    border-radius: 3px;
+    padding: 25px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.responsive-table .table-row {
+    font-size: 16px;
+    padding: 10px 15px;
+}
+.responsive-table .table-row {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgb(0 0 0 / 10%);
+    font-size: 17px;
+    padding: 10px 20px;
+	
+}
+.responsive-table li {
+    margin-top: 10px;
+}
+
+
+.responsive-table .col {
+    justify-content: flex-start;
+    display: flex;
+    padding: 10px 0;
+    flex-basis: 100%;
+    align-items: end;
+}
+.responsive-table .col-1 {
+    flex-basis: 10%;
+}
+.responsive-table .col {
+    padding: 0px 10px;
+}
+
+
+@media screen and (max-width:767px){
+.responsive-table .col:nth-child(1) {
+    margin-bottom: 15px;
+}
+.responsive-table .table-header {
+    display: none;
+}
+.responsive-table .col:nth-child(1) {
+    margin-bottom: 10px;
+    background: #0c1d63;
+    color: #fff;
+    padding: 10px 0px;
+}
+.responsive-table .col:nth-child(1):before {
+    color: #fff;
+}
+.responsive-table .table-row {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.responsive-table .col:before {
+    color: #6C7A89;
+    padding-right: 10px;
+    content: attr(data-label);
+    flex-basis: 50%;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+
+}
+</style>
