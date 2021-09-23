@@ -1,0 +1,444 @@
+<h1 class="heading">Codeigniter 3 - Generate PDF from view using dompdf library with example</h1>
+<style>
+table{width:100%;}
+table td{color:red;border:1px solid #ddd;font-size:12px;}
+.heading{font-size:12px;}
+</style>
+
+<table>
+<tr>
+<th>Id</th>
+<th>Name</th>
+<th>Email</th>
+<th>City</th>
+<th>State</th>
+<th>Country</th>
+</tr>
+
+	<tr>
+      <td>1</td>
+        <td>Hardik</td>
+        <td>hardik@gmail.com</td>
+        <td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+        </tr>
+
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+
+
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+	<tr>
+        <td>2</td>
+        <td>Paresh</td>
+        <td>paresh@gmail.com</td>
+		<td>Chandigarh</td>
+        <td>Punjab</td>
+        <td>India</td>
+</tr>
+
+</table>
+
+
+</body>
+
+</html>
