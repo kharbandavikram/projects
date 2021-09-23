@@ -20,21 +20,9 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
-	}
-	
-	
-	function mydata(){
-		die('dfdffd');
-		}
-	
-	
-function pdf(){
-$this->load->library('pdf');
+		$this->load->library('pdf');
 $this->pdf->load_view('mypdf');
 $this->pdf->render();
 $this->pdf->stream("welcome.pdf");
-}
- 
-	
+	}
 }
