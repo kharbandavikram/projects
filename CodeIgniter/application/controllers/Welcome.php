@@ -23,6 +23,12 @@ class Welcome extends CI_Controller {
 		$this->load->view('welcome_message');
 	}
 	
+	
+	function mydata(){
+		die('dfdffd');
+		}
+	
+	
 function pdf(){
 $this->load->library('pdf');
 $this->pdf->load_view('mypdf');
