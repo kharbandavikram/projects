@@ -30,7 +30,7 @@ function plugin_css_jsscripts() {
    wp_enqueue_style( 'style-css', plugins_url( '/style.css', __FILE__ ));
 
    // JavaScript
-   wp_enqueue_script( 'script-js', plugins_url( '/calculator/js/script.js', __FILE__ ),array('jquery'));
+   wp_enqueue_script( 'script-js', plugins_url( '/js/script.js', __FILE__ ),array('jquery'));
 
    // Pass ajax_url to script.js
    wp_localize_script( 'script-js', 'plugin_ajax_object',
