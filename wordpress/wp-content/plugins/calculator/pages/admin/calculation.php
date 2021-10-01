@@ -3,6 +3,9 @@
 // wp_head();
 ?>
 
+<script src="<?php echo plugins_url(); ?>/calculation/js/script.js?v=987071"></script>
+	
+
 Select Park<select id="park_selection">
 
 <option value="Animal Kingdom">Animal Kingdom </option>
