@@ -2,7 +2,7 @@
 
 
 ?>
-
+<script src="<?php echo plugins_url(); ?>/calculator/js/script.js?v=987071"></script>
 Select Park<select>
 
 <option value="Animal Kingdom">Animal Kingdom </option>
@@ -21,7 +21,7 @@ No. of Days Selected <select>
 </select>
 
 
-<input type="button" onclick="click_calculate()">
+<input type="button" value="click Me" onclick="click_calculate()">
 
 
 <script>
