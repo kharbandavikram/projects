@@ -3,7 +3,7 @@
 
 ?>
 <script src="<?php echo plugins_url(); ?>/calculator/js/script.js?v=987071"></script>
-Select Park<select>
+Select Park<select id="park_selection">
 
 <option value="Animal Kingdom">Animal Kingdom </option>
 <option value ="Diney Park">Disney Park </option>
@@ -26,8 +26,5 @@ No. of Days Selected <select>
 
 <script>
 
-function click_calculate()
-{
-	alert('test calculation');
-}
+
 </script>

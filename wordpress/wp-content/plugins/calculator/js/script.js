@@ -1,4 +1,6 @@
 function click_calculate()
 {
-	alert('test calculation');
+	
+		var test = jQuery('#park_selection').val();
+		alert(test);
 }
