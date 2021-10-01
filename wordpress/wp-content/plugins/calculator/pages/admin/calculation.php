@@ -11,7 +11,7 @@ Select Park<select id="park_selection">
 </select>
 
 
-No. of Days Selected <select>
+No. of Days Selected <select id="days">
 
 <option value="1">1 </option>
 <option value ="2">2 </option>
