@@ -20,7 +20,7 @@ function Calculator_menu_item()
 	
 	function manage_calculation()
 	{
-		include('pages/admin/calculation');
+		include('pages/admin/calculation.php');
 	}
 	
 	
