@@ -28,7 +28,10 @@ function Calculator_menu_item()
 function plugin_css_jsscripts() {
   
 
-
+   // JavaScript
+   wp_enqueue_script('script', plugins_url('/js/script.js', __FILE__ ),array('jquery'),'1.1', true);
+   
+   
  
 
    // Pass ajax_url to script.js
