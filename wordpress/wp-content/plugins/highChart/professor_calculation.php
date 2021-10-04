@@ -7,6 +7,8 @@
 	* Author URI: 
 	* License: 
 	**/
+	
+	echo 'working';
 
 
 	function create_plugin_database_table() {
