@@ -1,4 +1,5 @@
 <?php
+
  /*
    Plugin Name: Plugin AJAX
    Plugin URI: https://makitweb.com
