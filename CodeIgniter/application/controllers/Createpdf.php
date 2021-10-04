@@ -2,13 +2,7 @@
 
 class Createpdf extends CI_Controller {
 
-function create_pdf_data(){
-$this->load->library('pdf');
-$this->pdf->load_view('mypdf');
-$this->pdf->render();
-$this->pdf->stream("welcome.pdf");
-}
- 
+
  
 		public function create_pdf()
 	{
