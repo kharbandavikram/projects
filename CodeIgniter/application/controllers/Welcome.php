@@ -25,7 +25,7 @@ class Welcome extends CI_Controller {
 	
 	
 		public function create_pdf()
-		{
+	{
 		$data  = array();
 		$mpdf = new \Mpdf\Mpdf(['mode' => 'utf-8', 'format' => [250, 1200]]);
 		$mpdf->AddPage('P');   // L for landscope, P for potrate
