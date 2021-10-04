@@ -58,12 +58,13 @@ jQuery(document).ready(function($){
           // Add <tr>
           var tr = "<tr>";
           tr += "<td>"+ (++sno) +"</td>";
-          tr += "<td><input type="text" value="+ emp_name +"</td>";
-          tr += "<td><input type="text" value="+ email +"</td>";
-          tr += "<td><input type="text" value="+ salary +"</td>";
-          tr += "<td><input type="text" value="+ gender +"</td>";
-          tr += "<td><input type="text" value="+ city +"</td>";
+          tr += "<td><input type="text" value=""+ emp_name +""</td>";
+          tr += "<td>"+ email +"</td>";
+          tr += "<td>"+ salary +"</td>";
+          tr += "<td>"+ gender +"</td>";
+          tr += "<td>"+ city +"</td>";
           tr += "<tr>";
+
           $("#empTable tbody").append(tr);
         }
     }
